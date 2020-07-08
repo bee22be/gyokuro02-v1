@@ -755,9 +755,7 @@
           $j(".tumblrView__close").on("click", function () {
             $j("#tumblrView").removeClass('active');
             $j('body').removeClass('tumblr')
-            setTimeout(() => {
-              $j('.tumblrView__content').html('')
-            }, 1000);
+            $j('.tumblrView__content').html('')
           });
           // ---実装ここまで
 
